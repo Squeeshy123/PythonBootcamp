@@ -14,18 +14,11 @@ object = SomeObject()
 print(object)
 
 
-input("You can also change certain parts of the print function ")
-
-# you can also add something to the end of a print statement
-#                                                            vv this just means make a new line
+#You can even change certain parts of the print function
 print(12345, end=" this is what is at the end of the print\n")
-print("fox", end="es ")
 
-# See what happens without the \n                        vvvv makes 2 new lines
-input("this is what it's like without a \\n Weird right? \n\n but now I'm on this line! ")
-# The backslash "\" will let you specify certain commands in RegEx, but thats fancy shennanigans.
-# All you need to know for now is that \n makes a new line.
+#or even like this
+print("The", "quick", "brown", "fox", "jumped", "over", "the", "lazy", "dog", sep="|")
 
-print("")
 
 
